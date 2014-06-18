@@ -28,6 +28,10 @@ describe('CatalogController', function () {
             sinon.assert.calledOnce(mockCatalogRepository.getCatalog);
         });
 
+        it('puts the catalog on the scope', function() {
+            expect(scope.catalog).toEqual(catalog);
+        });
+
     });
 
 });
