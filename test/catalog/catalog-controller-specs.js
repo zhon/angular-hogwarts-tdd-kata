@@ -47,6 +47,12 @@ describe('CatalogController', function () {
             sinon.assert.calledWith(mockRegistrationService.register, courseId);
         });
 
+        it('adds the registration response to the scope', function() {
+            mockRegistrationService.register.returns(response);
+            scope.register(courseId);
+            expect(scope.response).toEqual(response);
+        });
+
     });
 
 });
