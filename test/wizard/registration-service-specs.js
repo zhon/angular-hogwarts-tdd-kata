@@ -31,6 +31,11 @@ describe('registrationService', function () {
             );
         });
 
+        it('returns a success response', function () {
+            var response = service.register(course.id);
+            expect(response.success).toBeTruthy();
+        });
+
     });
 
 });
