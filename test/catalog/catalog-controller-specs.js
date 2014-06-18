@@ -41,15 +41,16 @@ describe('CatalogController', function () {
         var courseId = 'courseId';
         var response = {success: true, message: ''};
 
-        it('adds the course to the wizard\'s schedule', function() {
+        beforeEach(function() {
             mockRegistrationService.register.returns(response);
             scope.register(courseId);
+        });
+
+        it('adds the course to the wizard\'s schedule', function() {
             sinon.assert.calledWith(mockRegistrationService.register, courseId);
         });
 
         it('adds the registration response to the scope', function() {
-            mockRegistrationService.register.returns(response);
-            scope.register(courseId);
             expect(scope.response).toEqual(response);
         });
 
