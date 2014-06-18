@@ -1,10 +1,6 @@
 'use strict';
 
 hogwartsApp
-.controller("CatalogController", function ($scope, catalogRepository, registrationService) {
-    $scope.catalog = catalogRepository.getCatalog();
+.controller("CatalogController", function ($scope) {
 
-    $scope.register = function(courseId) {
-        $scope.response = registrationService.register(courseId);
-    };
 });
