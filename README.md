@@ -531,7 +531,7 @@ Can you clarify it in code? **You mean extract the last 2 lines into a method.**
 
         register: function(courseId) {
             var course = catalogRepository.getCourse(courseId),
-            wizard = wizardRepository.get();
+                wizard = wizardRepository.get();
 
             registerWizardForCourse(wizard, course);
         }

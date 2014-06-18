@@ -7,9 +7,12 @@ hogwartsApp
             var course = catalogRepository.getCourse(courseId),
                 wizard = wizardRepository.get();
 
-            wizard.courses[course.id] = course;
-            wizardRepository.save(wizard);
+            registerWizardForCourse(wizard, course);
         }
     };
 
+    function registerWizardForCourse(wizard, course) {
+        wizard.courses[course.id] = course;
+        wizardRepository.save(wizard);
+    }
 });
