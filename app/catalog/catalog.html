@@ -1,0 +1,25 @@
+<div class="jumbotron">
+    <h1>Hogwarts course catalog!</h1>
+    <p>Select your wizarding classes!</p>
+</div>
+<div>
+    <div class="panel panel-default" style="padding:0 20px;">
+        <div ng-show="response && response.success" class="alert alert-success">Successfully registered</div>
+        <div ng-show="response && !response.success" class="alert alert-danger">{{response.message}}</div>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Class</th>
+                    <th>Time</th>
+                    <th>Professor</th>
+                    <th>Credits</th>
+                </tr>
+            </thead>
+
+            <tbody>
+            </tbody>
+
+        </table>
+    </div>
+</div>

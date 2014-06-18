@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Angular Hogwarts TDD Kata</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css"/>
+</head>
+<body ng-app="hogwartsApp">
+<div class="navbar navbar-inverse">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Hogwarts</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a ui-sref="sorting">Sorting</a></li>
+                <li><a ui-sref="catalog">Catalog</a></li>
+                <li><a ui-sref="schedule">Schedule</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div>
+    <div ui-view></div>
+</div>
+
+<script src="lib/angularjs/angular.min.js"></script>
+<script src="lib/angularjs/angular-ui-router.min.js"></script>
+<script src="lib/underscore-min.js"></script>
+
+<script src="app.js"></script>
+<script src="routes.js"></script>
+
+<script src="catalog/catalog-controller.js"></script>
+<script src="catalog/catalog-repository.js"></script>
+<script src="sorting/house-assignment-service.js"></script>
+<script src="sorting/house-repository.js"></script>
+<script src="sorting/random-number-service.js"></script>
+<script src="sorting/sorting-hat-controller.js"></script>
+<script src="wizard/schedule-controller.js"></script>
+<script src="wizard/wizard-repository.js"></script>
+<script src="wizard/registration-service.js"></script>
+
+</body>
+</html>
