@@ -8,7 +8,7 @@ Introduction
 
 Hogwarts has embraced Muggle Technology!
 
-Professor Arthur Weasley has just discovered the magic-powered computer, Hex, and it works at Hogwarts.
+Professor Arthur Weasley has just discovered tiohe magic-powered computer, Hex, and it works at Hogwarts.
 
 ---
 
@@ -532,7 +532,7 @@ Can you clarify it in code? **You mean extract the last 2 lines into a method.**
 
 **Accio Extractum Modious**
 
-``app/wizard/registratioioion-service.js``
+``app/wizard/registration-service.js``
 ```js
 ...
 
