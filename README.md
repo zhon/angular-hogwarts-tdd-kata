@@ -106,9 +106,9 @@ How will you hook it up? **By loading the ``scope`` with all the courses when th
 
 ### 1.1. Make Test Error
 
-Can you show me what you mean? **Sure. Here is the core of the test.**
+Can you show me what you mean? **Sure.**
 
-**Lorem Demonstratio Facilius**
+**Demonstratio Facilius.**
 
 ``test/catalog/catalog-controller-specs.js``
 ```js
