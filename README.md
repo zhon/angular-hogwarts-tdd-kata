@@ -20,6 +20,7 @@ Setup
 -----
 
 You have [git](http://git-scm.com/downloads) installed.
+
 ``git clone https://github.com/zhon/angular-hogwarts-tdd-kata.git``
 
 ``cd angular-hogwarts-tdd-kata``
