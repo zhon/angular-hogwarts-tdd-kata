@@ -47,7 +47,9 @@ You will load the app and test page with the following:
 Finally, if you like your tests automatically running every time you make a change, use the following command:
 
 ``./node_modules/karma/bin/karma start``  (bash console)
+
 or
+
 ``node .\node_modules\karma\bin\karma start``  (windows console)
 
 
