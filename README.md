@@ -8,7 +8,7 @@ Introduction
 
 Hogwarts has embraced Muggle Technology!
 
-Professor Arthur Weasley has just discovered tiohe magic-powered computer, Hex, and it works at Hogwarts.
+Professor Arthur Weasley has just discovered the magic-powered computer, Hex, and it works at Hogwarts.
 
 ---
 
