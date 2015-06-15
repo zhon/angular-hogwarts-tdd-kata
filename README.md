@@ -771,7 +771,7 @@ Acceptance: Students attempting to register for multiple classes at the same tim
 
 ### 5. Allow Multiple Simultaneous Classes with  a Time-Turner
 
-Acceptance: Students with a time-turner are be allowed to register for multiple classes at the same time.
+Acceptance: Students with a time-turner are allowed to register for multiple classes at the same time.
 
 ### 6. Refactor out the duplicated UI in Schedule and Catalog
 
